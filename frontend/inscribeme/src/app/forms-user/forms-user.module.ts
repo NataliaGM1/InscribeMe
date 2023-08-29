@@ -1,6 +1,5 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { ButtonloginComponent } from './components/buttonlogin/buttonlogin.component';
 import { SigninComponent } from './components/signin/signin.component';
 import { SignupComponent } from './components/signup/signup.component';
 import { UserloggedComponent } from './components/userlogged/userlogged.component';
@@ -11,7 +10,6 @@ import { FormsUserRoutingModule } from './forms-user-routing.module';
 
 @NgModule({
   declarations: [
-    ButtonloginComponent,
     SigninComponent,
     SignupComponent,
     UserloggedComponent,
